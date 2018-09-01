@@ -1,31 +1,14 @@
 /* SMALL SCREENS */
-/* @media only screen and (max-width: 600px) {
-  body {
-    background-color: blue;
-    max-width: 600px;
-  }
 
-  .footer-item {
-    margin-top: 15%;
-    margin-left: 15%;
-  }
-
-  #services {
-    display: grid;
-    grid-template-columns: repeat(1, 1fr);
-    grid-gap: 20px;
-    grid-auto-rows: minmax(100px, auto);
-    margin-left: 10%;
-    margin-right: 10%;
-
-  }
-} */
+/* FIGURE OUT DIFFERENCE BETWEEN THIS AND THE CSS FILE */
+/* BECAUSE LARGE AND MEDIUM ARE OKAY */
 
 /* MEDIUM SCREENS */
-/* @media only screen and (max-width: 807px) {
+@media only screen and (max-width: 807px) {
   body {
     background-color: red;
-    max-width: 807px;
+    /* max-width: 807px; */
+    /* min-width: 601px; */
 
   }
   form.form-inline {
@@ -43,15 +26,45 @@
     margin-top: 15%;
     margin-left: 25%;
   }
-} */
+  #services {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 20px;
+    grid-auto-rows: minmax(100px, auto);
+    margin-left: 10%;
+    margin-right: 10%;
+
+   }
+}
+@media only screen and (max-width: 600px) {
+  body {
+    background-color: blue;
+    /* max-width: 600px; */
+    min-width: 545px;
+  }
+
+  .footer-item {
+    margin-top: 15%;
+    margin-left: 15%;
+  }
+
+  #services {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 20px;
+    grid-auto-rows: minmax(100px, auto);
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+}
 
 
 /* DEFAULT */
 
-/* @media only screen and (min-width: 807px) {
+@media only screen and (min-width: 807px) {
   body {
     background-color: green;
-    max-width: 1650px;
+    /* min-width: 807px; */
   }
   .footer-item {
     margin-top: 15%;
@@ -64,12 +77,13 @@
     grid-auto-rows: minmax(100px, auto);
     margin-left: 10%;
     margin-right: 10%;
-    /* padding: 4%; */
-  /* }
-} */
+
+   }
+}
 
 body {
   /* background-color: white; */
+  max-width: 1650px;
    margin: 0px;
    text-align: center;
    /* background: linear-gradient(170deg, #7436cd 8%, #7659df 8%, #7659df 32%, #726be2 20%, #726be2 40%, #ffffff 35%); */
@@ -77,15 +91,14 @@ body {
    font-family: Arial, Helvetica, sans-serif;
 }
 
-#services {
+/* #services {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-gap: 20px;
   grid-auto-rows: minmax(100px, auto);
   margin-left: 10%;
   margin-right: 10%;
-  /* padding: 4%; */
-}
+} */
 .top {
   height: 600px;
   background: linear-gradient(172deg, #7436cd 12%, #7659df 12%, #7659df 58%, #726be2 48%, #726be2 70%, #ffffff 65%);
