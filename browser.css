@@ -139,7 +139,6 @@ body {
   height: 50px;
   padding: 20px;
 }
-
 .mid-paragraph {
   position: static;
   margin-left: 30%;
@@ -274,7 +273,9 @@ button {
 .regular-button:hover {
   transform: scale(1.03);
 }
-
+.nav-button {
+  border-radius: 5px;
+}
 
 /* ALIGNMENT */
 .align-left {
