@@ -5,15 +5,8 @@
     <title>Sheridan Code Challenge</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
   </head>
-  <link rel="stylesheet" type="text/css" href='./reset.css'></link>
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-  <!-- <link rel="stylesheet" media='screen and (min-width: 807px)' type="text/css" href='./browser.css'></link> -->
-  <!-- <link rel="stylesheet" media='screen and (max-width: 807px)' type="text/css" href='./small-devices.css'></link> -->
-  <!-- <link rel="stylesheet" media='screen and (max-width: 600px)' type="text/css" href='./extra-small-devices.css'></link> -->
-  <!-- <link rel="stylesheet" media='screen and (min-width: 600px)' type="text/css" href='./browser.css'></link> -->
   <link rel="stylesheet" type="text/css" href='./browser.css'></link>
-
-
   <body>
     <script src="https://unpkg.com/ionicons@4.4.2/dist/ionicons.js"></script>
     <!--########### TOP OF THE DOCUMENT ###############  -->
@@ -21,7 +14,6 @@
     <nav class="navbar navbar-light justify-content-between">
       <a href="#"class="white-text logo">MyWebNow</a>
       <form class="form-inline">
-        <!-- <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search"> -->
         <a href="#" class='white-text nav-item' >Home</a>
         <a href="#" class='white-text nav-item' >Why Us</a>
         <a href="#" class='white-text nav-item' >Contact Us</a>
@@ -61,36 +53,44 @@
         <hr class="short-bold-hr-line">
         <div id="services">
           <div class='service-item'>
-            <img class='small-img' src="./pics/ramen.jpg">
-            <h4>Web Hosting &rarr;</h4>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-              Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-            </p>
+            <a href="#" class='service-item-link'>
+              <img class='small-img' src="./pics/ramen.jpg">
+              <h4>Web Hosting &rarr;</h4>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+              </p>
+            </a>
           </div>
           <div class='service-item'>
-            <img class='small-img' src="./pics/ramen.jpg">
+            <a href="#" class='service-item-link'>
+            <img class='small-img' src="./pics/tonkatsu.jpeg">
             <h4>Resellers &rarr;</h4>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
               Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
             </p>
+          </a>
           </div>
           <div class='service-item'>
-            <img class='small-img' src="./pics/ramen.jpg">
+            <a href="#" class='service-item-link'>
+            <img class='small-img' src="./pics/sushi.jpg">
             <h4>VPS Hosting &rarr;</h4>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
               Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
             </p>
+          </a>
           </div>
           <div class='service-item'>
-            <img class='small-img' src="./pics/ramen.jpg">
+            <a href="#" class='service-item-link'>
+            <img class='small-img' src="./pics/okonomiyaki.jpg">
             <h4>Cloud Hosting &rarr;</h4>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
               Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
             </p>
+          </a>
           </div>
           <div class='five align-left'>
             <p class='light-purple-text'>Are you ready?</p>
-            <p class='dark-purple-text'>Create an account, or contact us.</p>
+            <p class='dark-purple-text'>Create an account, or contact us!</p>
           </div>
           <div class='six align-right'>
             <button class='btn purple-button small-font-button regular-button'>CREATE YOUR ACCOUNT</button>
@@ -105,13 +105,14 @@
 
         <div class="footer-item">
             <h5><ion-icon name="call"></ion-icon> +1 800 Website</h5>
-          <a class='white-text' href="mailto:hello@mywebnow.com"><ion-icon name="mail"></ion-icon> hello@mywebnow.com</a>
+          <a class='white-text email-link' href="mailto:hello@mywebnow.com"><ion-icon name="mail"></ion-icon> hello@mywebnow.com</a>
           <address>
-            <ion-icon name="pin"></ion-icon> 1 Main St.
+            <ion-icon name="pin"></ion-icon> <div>1 Main St.
               </br>
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Floor 6,
+            Floor 6,
               </br>
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; New York, NY 10005
+            New York, NY 10005
+            </div
           </address>
         </div>
 
