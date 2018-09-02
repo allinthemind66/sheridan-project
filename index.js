@@ -1,5 +1,5 @@
-let circleButton = document.querySelector(".circle-button")
-let services = document.querySelector("#services")
+let circleButton = document.querySelector(".circle-button");
+let services = document.querySelector("#services");
 circleButton.addEventListener("click", () => {
-  services.scrollIntoView({behavior: "smooth"})
-})
+  services.scrollIntoView({behavior: "smooth"});
+});
