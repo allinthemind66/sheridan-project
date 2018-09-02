@@ -126,11 +126,17 @@ body {
 .search-bar {
   display: inline;
 }
+.search-bar button {
+  height: 50px;
+  width: 85px;
+}
 .form-control {
   display: inline;
-  width: 18%;
+  width: 24%;
+  height: 50px;
   padding: 20px;
 }
+
 .learn-more p {
   font-size: 12px;
 }
