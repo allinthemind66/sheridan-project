@@ -185,6 +185,16 @@ footer {
   grid-gap: 10px;
   grid-auto-rows: minmax(100px, auto);
 }
+.footer-item h5 {
+  font-weight: bold;
+  font-size: 13px;
+}
+.footer-item a, .footer-item p, .footer-item address{
+  font-size: 12px;
+}
+.footer-item a.social-icon {
+  font-size: 20px;
+}
 address {
   padding-top: 15px;
 }
@@ -197,13 +207,6 @@ address ion-icon {
 }
 .social-icon {
   color: rgba(84, 78, 164, 0.5);
-}
-.footer-item h5 {
-  font-weight: bold;
-  font-size: 13px;
-}
-.footer-item a, .footer-item p, .footer-item address{
-  font-size: 12px;
 }
 
 
