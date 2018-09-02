@@ -99,7 +99,10 @@ body {
   background: linear-gradient(172deg, #7436cd 12%, #7659df 12%, #7659df 58%, #726be2 48%, #726be2 70%, #ffffff 65%);
 }
 .learn-more {
-  margin-top: 8%;
+  margin-top: 6%;
+}
+.learn-more p {
+  font-size: 12px;
 }
 .headline {
   color: white;
@@ -137,9 +140,6 @@ body {
   padding: 20px;
 }
 
-.learn-more p {
-  font-size: 12px;
-}
 .mid-paragraph {
   position: static;
   margin-left: 30%;
